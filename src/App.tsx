@@ -19,7 +19,6 @@ import { UserModal } from './components/UserModal';
 import { INITIAL_PRODUCTS, EXTENDED_PRODUCTS } from './data/products';
 import { Product, CartItem, NavigationTab } from './types';
 import { RotateCcw } from 'lucide-react';
-
 export default function App() {
   const [activeTab, setActiveTab] = useState<NavigationTab>('EXPLORE');
   const [displayedProducts, setDisplayedProducts] = useState<Product[]>(INITIAL_PRODUCTS);
