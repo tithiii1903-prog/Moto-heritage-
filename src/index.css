@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "EB Garamond", Georgia, serif;
+  --font-headline: "EB Garamond", Georgia, serif;
+  --font-serif: "EB Garamond", Georgia, serif;
+  --font-body: "Manrope", sans-serif;
+  --font-sans: "Manrope", sans-serif;
+  --font-label: "Manrope", sans-serif;
+
+  --color-primary: #1A1A1A;
+  --color-on-primary: #FDFCFB;
+  --color-accent: #D4AF37;
+  --color-background: #FDFCFB;
+  --color-surface: #FDFCFB;
+  --color-on-surface: #1A1A1A;
+  --color-on-surface-variant: #666666;
+  --color-surface-container: #F5F3EF;
+  --color-surface-container-high: #EAE8E4;
+  --color-surface-container-low: #FAF8F5;
+  --color-outline: #1A1A1A;
+  --color-outline-variant: #E5E2DC;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+  }
+}
+
+.font-display {
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
+.font-headline {
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
+.font-serif {
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
+.font-body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-label {
+  font-family: 'Manrope', sans-serif;
+}
+

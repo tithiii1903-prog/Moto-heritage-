@@ -1,0 +1,8 @@
+{
+  "name": "Remix Moto Heritage",
+  "description": "Curated vintage motorcycle parts, restored components, and custom foundry collection archive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
